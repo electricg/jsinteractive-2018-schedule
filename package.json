@@ -1,0 +1,36 @@
+{
+  "name": "nodejsinteractive-2018-schedule",
+  "version": "1.0.0",
+  "description": "Node + JS Interactive 2018 Schedule",
+  "main": "index.js",
+  "private": true,
+  "config": {
+    "outputFolder": "nodejsinteractive-2018-schedule"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "author": "Giulia Alfonsi",
+  "license": "MIT",
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "classnames": "^2.2.6",
+    "express": "^4.16.3",
+    "next": "^7.0.1",
+    "node-sass": "^4.9.3",
+    "raw-loader": "^0.5.1",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.6.1",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-prettier": "^3.0.0",
+    "eslint-plugin-react": "^7.11.1",
+    "prettier": "^1.14.3",
+    "prettier-eslint": "^8.8.2"
+  }
+}
